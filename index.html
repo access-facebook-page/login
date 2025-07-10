@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Security Access Verification</title>
+  <meta charset="UTF-8">
+  <title>⚠️ Cybercrime Warning</title>
   <style>
     body {
-      background-color: #000;
-      color: #0f0;
-      font-family: monospace;
-      padding: 40px;
+      background-color: black;
+      color: lime;
+      font-family: "Courier New", monospace;
+      padding: 30px;
+      font-size: 16px;
+    }
+    .red {
+      color: red;
+    }
+    .yellow {
+      color: yellow;
     }
     .blink {
       animation: blink 1s step-start infinite;
     }
     @keyframes blink {
-      50% {
-        opacity: 0;
-      }
-    }
-    h1 {
-      color: red;
-      font-size: 28px;
+      50% { opacity: 0; }
     }
   </style>
 </head>
 <body>
-  <h1>⚠️ WARNING: Unauthorized Access Detected</h1>
-  <p>Logging IP address... <span class="blink">█</span></p>
-  <p>Analyzing geolocation... <span class="blink">█</span></p>
-  <p>Verifying identity against global fraud database... <span class="blink">█</span></p>
-  <p><strong>Status:</strong> <span style="color: yellow;">Potential scammer flagged</span></p>
+  <h1 class="red">⚠️ ALERT: Unauthorized Access Attempt Detected</h1>
+  <p>IP Address: <span class="yellow">[TRACKING...]</span></p>
+  <p>Geolocation: <span class="yellow">[SCANNING...]</span></p>
+  <p>Device Fingerprint: <span class="yellow">[CAPTURING...]</span></p>
+  <p>Network: <span class="yellow">[LOGGED]</span></p>
+  <hr>
+  <p class="red">Suspicious behavior linked to known scam networks.</p>
+  <p>Evidence has been logged and submitted to:</p>
+  <ul>
+    <li>⚖️ INTERPOL Cybercrime Unit</li>
+    <li>👮 FBI Internet Crime Complaint Center</li>
+    <li>🔒 Meta Security & Fraud Team</li>
+  </ul>
   <br>
-  <p>If this was a mistake, please contact <span style="color: cyan;">cyber@global-investigation.net</span> within 24 hours.</p>
+  <p class="blink red">⚠️ Do NOT close this window. Your data is being secured.</p>
+  <p>If this is an error, contact: <span class="yellow">cyber@security-investigation.org</span></p>
 </body>
 </html>

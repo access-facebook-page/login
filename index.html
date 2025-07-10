@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Security Access Verification</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #0f0;
+      font-family: monospace;
+      padding: 40px;
+    }
+    .blink {
+      animation: blink 1s step-start infinite;
+    }
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+    h1 {
+      color: red;
+      font-size: 28px;
+    }
+  </style>
+</head>
+<body>
+  <h1>⚠️ WARNING: Unauthorized Access Detected</h1>
+  <p>Logging IP address... <span class="blink">█</span></p>
+  <p>Analyzing geolocation... <span class="blink">█</span></p>
+  <p>Verifying identity against global fraud database... <span class="blink">█</span></p>
+  <p><strong>Status:</strong> <span style="color: yellow;">Potential scammer flagged</span></p>
+  <br>
+  <p>If this was a mistake, please contact <span style="color: cyan;">cyber@global-investigation.net</span> within 24 hours.</p>
+</body>
+</html>
